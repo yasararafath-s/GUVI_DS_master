@@ -1,35 +1,63 @@
-# DS_RedBus – Bus Route & Booking Data Analysis
+# RedBus Website Scraping Project
 
-## Project Overview
-This project scrapes, stores, and analyzes bus route and booking data from RedBus, India's leading bus ticketing platform, to uncover travel patterns, pricing trends, and operational insights.
-
-## Objectives
-- Scrape bus route, schedule, and pricing data from RedBus using Selenium
-- Store structured data in a MySQL database
-- Perform exploratory data analysis on routes, operators, prices, and seat availability
-- Build an interactive Streamlit app to filter and explore the data
-
-## Tools & Technologies
-- **Python** – Selenium (web scraping), Pandas, SQLAlchemy
-- **MySQL** – Data storage and querying
-- **Streamlit** – Interactive filtering and visualization app
-- **Matplotlib / Seaborn** – Data visualization
+This project involves scraping data from the Redbus website using Selenium, storing the data in a MySQL database, and creating a Streamlit app for data filtration.
 
 ## Project Structure
-```
-06_RedBus/
-├── README.md
-├── scraper.py          # Selenium scraping script
-├── app.py              # Streamlit application
-├── notebooks/          # EDA notebooks
-├── data/               # Scraped CSV data
-└── sql/                # Database schema and queries
-```
 
-## Key Features
-- Scrape data for multiple states and routes
-- Filter buses by route, operator, price range, star rating, seat availability
-- Visual analysis of popular routes and pricing trends
+- **Selenium**: Used for web scraping to extract data from the Redbus website.
+- **MySQL**: Database to store the scraped data.
+- **Streamlit**: Web application framework to create an interactive data filtration interface.
 
-## Status
-> 📁 Project files to be added. Clone or copy your project files into this folder.
+## Requirements
+
+- Python 3.x
+- Selenium
+- MySQL
+- Streamlit
+- Pandas
+- Numpy
+
+## Setup Instructions
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yasararafath-s/Dataspark.git
+    cd 06_RedBus
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Configure MySQL**:
+    - Create a database and update the connection details in the script.
+
+4. **Run the scraper**:
+    ```bash
+    # Open and run the notebook
+    jupyter notebook redbus_scraping_sql.ipynb
+    ```
+
+5. **Start the Streamlit app**:
+    ```bash
+    streamlit run redbus_data_app.py
+    ```
+
+## Usage
+
+- Run the scraper to collect data from the Redbus website.
+- Use the Streamlit app to filter and visualize the data.
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `redbus_scraping_sql.ipynb` | Selenium scraping + MySQL data ingestion notebook |
+| `redbus_data_app.py` | Streamlit app for filtering and viewing bus data |
+| `Appimage.png` | Screenshot of the Streamlit app |
+| `App_demo_redbus.webm` | Video demo of the app |
+
+## Screenshot
+
+![App Screenshot](Appimage.png)

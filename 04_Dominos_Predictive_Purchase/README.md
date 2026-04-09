@@ -31,5 +31,7 @@ This project implements a predictive purchase order system for Domino's Pizza, f
 3. **Purchase Order Generation** – Map forecasted sales to ingredient quantities
 4. **Evaluation** – Measure forecast accuracy using MAE, RMSE
 
-## Status
-> 📁 Project files to be added. Clone or copy your project files into this folder.
+## Source Repository
+[yasararafath-s/Dominos_predictive_purchase_order_system](https://github.com/yasararafath-s/Dominos_predictive_purchase_order_system)
+
+> 📁 Project code files to be added.

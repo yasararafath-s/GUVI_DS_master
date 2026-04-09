@@ -30,5 +30,7 @@ This project builds a machine learning model to predict the resale price of used
 - Random Forest Regressor
 - Gradient Boosting / XGBoost
 
-## Status
-> 📁 Project files to be added. Clone or copy your project files into this folder.
+## Source Repository
+[yasararafath-s/used_car_price_prediction](https://github.com/yasararafath-s/used_car_price_prediction)
+
+> 📁 Project code files to be added.

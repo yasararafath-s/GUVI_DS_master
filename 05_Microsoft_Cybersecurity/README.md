@@ -35,5 +35,7 @@ This project develops a machine learning classifier to predict the triage grade 
 - **Macro-F1 Score** (primary)
 - Precision and Recall per class
 
-## Status
-> 📁 Project files to be added. Clone or copy your project files into this folder.
+## Source Repository
+[yasararafath-s/Microsoft_classifying_cybersecurity_incidents](https://github.com/yasararafath-s/Microsoft_classifying_cybersecurity_incidents)
+
+> 📁 Project code files to be added.
