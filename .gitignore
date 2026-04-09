@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data files (large files – add to repo only if small)
+*.csv
+!**/Data_Dictionary.csv
+*.xlsx
+*.parquet
+*.h5
+*.hdf5
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Power BI temp files
+*.pbix.lock
